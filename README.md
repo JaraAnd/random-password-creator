@@ -1,4 +1,4 @@
-# Random-Password-Creator:
+# Random Password Creator:
  An app that creates a random password based on user preferences. A conveniente tool for users who need to create accounts and require secure passwords.  includes several user options to create a mix of upper case, lower Case, numerical, and symbol based passwords.
  
  ![image](https://user-images.githubusercontent.com/79062604/143959461-ad80cf9e-bfc0-4604-ba18-748811a8b456.png)
