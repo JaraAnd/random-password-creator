@@ -12,4 +12,11 @@ download the files or clone the repository in any enviroment that supports .js,.
 Load the project into the enviroment and run the index.html file.
 
 # Contributing to the project
-To contribute create a pull request and comment what issue is being worked on.  Contributions will be reviewed.
+To contribute, create a pull request and comment what issue is being worked on.  Contributions will be reviewed.
+
+# Coding Standards
+
+The code is Written in .js, .html and .css.  Follow the same organized code structure already in place.  For new changes please add comments to make changes easier to find.
+Make sure the code is readable and is easy to maintain.
+
+You can follow code standards here [Web standards](https://www.w3.org/wiki/The_web_standards_model_-_HTML_CSS_and_JavaScript)
