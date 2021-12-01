@@ -7,9 +7,6 @@
         <link rel="stylesheet" href="style.css" />
         <script src="script.js" defer></script>
     </head>
-    <div>
-    <h1>Random Password Creator</h1>
-    <div>
     <body>
         <div class="pw-container">
             <div class="pw-header">
@@ -43,7 +40,16 @@
                 <button class="generate" id="generate">
                     Create Password
                 </button>
+                <button classname ="clear">clear</button>
             </div>
         </div>
+        <script>
+            window.addEventListener('pw', () => {
+                const button = document. querySelector('#clear');
+                button.addEventListener('click', () => {
+                    document.querySelector('#pw').value = " ";
+                });
+            }); 
+        </script>
     </body>
 </html>
