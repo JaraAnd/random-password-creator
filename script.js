@@ -82,5 +82,21 @@ function generateX() {
     return xs[Math.floor(Math.random() * xs.length)];
 }
 
+// function to copy the password to clipboard
+function copyPW() {
+    // get pw text and create temporary textArea to select from
+    var copyText = document.getElementById("pw");
+    var textArea = document.createElement("textarea");
+
+    // put pw text into hidden textArea then copy from the textArea
+    textArea.value = copyText.textContent;
+    document.body.appendChild(textArea);
+    textArea.select();
+    navigator.clipboard.writeText(textArea.value);
+
+    // remove temporary textArea
+    textArea.remove();
+}
+
 generateEl.addEventListener("click", generatePassword);
 
