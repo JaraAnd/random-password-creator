@@ -11,8 +11,8 @@ The app uses HTML and CSS tools for the web form and styling purposes.  For the 
 download the files or clone the repository in any enviroment that supports .js,.html and .css.
 Load the project into the enviroment and run the index.html file.
 
-# Contributing to the project
-To contribute, create a pull request and comment what issue is being worked on.  Contributions will be reviewed.
+# The required configuration to force Pull Requests to go through a review process.
+To contribute, simply fork the repo and add your changes, then compare across forks and submit the pull request.  or DM me and i will grant access to create a pull request directly to my repo.
 
 # Coding Standards
 
