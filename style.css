@@ -4,7 +4,9 @@
 }
 
 body {
-    background-color: rgb(107, 170, 123);
+    /*background-color: rgb(107, 170, 123);*/
+    /*Adding Background Image with URL Link*/
+    background-image: url(https://th.bing.com/th/id/R.3011505bdd1a219b3999bd8b2ace60ef?rik=ZZECzRNZZ7IRIw&riu=http%3a%2f%2flava360.com%2fwp-content%2fuploads%2f2014%2f01%2fClassic-Background-Images-For-Wordpress-Blogs-16.jpg&ehk=3memBiJc%2ftSSpdud33yEWqJkFXINAsyFtLIy%2bXEyUfw%3d&risl=&pid=ImgRaw&r=0);
     color: white;
     display: flex;
     align-items: center;
@@ -25,7 +27,7 @@ body {
 }
 
 .pw {
-    background-color: rgb(57, 55, 83);
+    background-color: rgb(0, 55, 83);
     display: flex;
     font-size: 1.5rem;
     align-items: center;
@@ -39,7 +41,7 @@ body {
 .pw button {
     background-color: white;
     border: none;
-    color: rgb(29, 2, 56);
+    color: rgb( 155,92,92);
     cursor: pointer;
     font-family: inherit;
     font-weight: bold;
@@ -51,6 +53,8 @@ body {
     transition: opacity 0.2s ease, transform 0.2s ease;
     opacity: 0;
 }
+
+.button1 {border-radius: 12px;}
 
 .pw:hover button {
     opacity: 1;
@@ -69,7 +73,7 @@ body {
 }
 
 .generate {
-    background-color: #ca9999;
+    background-color: #c0c0c0;
     border: none;
     color: rgb(0, 0, 0);
     cursor: pointer;
@@ -79,4 +83,22 @@ body {
     padding: 0.75rem;
     margin-top: 1rem;
     width: 100%;
+    /*Addinng around border*/
+    border-radius: 74px;
 }
+/*Adding Hoeverable Buttons*/
+.generate:hover{
+  background-color: #e7e7e7;
+  color: black;
+}
+/*Adding H1 Style for Title Name*/
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color:  #008CBA;
+  font-family: monospace;
+}
+/*Adding Style to the Title Name*/
+/*.p3 {
+  font-family: monospace;
+}*/
